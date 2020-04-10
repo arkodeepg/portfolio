@@ -46,23 +46,27 @@ section {
 h1,
 h2,
 h3 {
-    line-height: 130%;
     text-transform: uppercase;
     /*    text-align: center;*/
     word-spacing: 4px;
 }
 
 h1 {
+    line-height: 100%;
     font-size: 400%;
+    font-weight: 400;
 }
 
 h2 {
+    margin-top: 10px;
+    line-height: 130%;
     text-align: center;
     font-size: 200%;
     font-weight: 400;
 }
 
 h3 {
+    line-height: 130%;
     margin-top: 5%;
     margin-bottom: 2%;
 }
