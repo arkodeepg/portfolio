@@ -15,10 +15,11 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     line-height: 145%;
+    scroll-behavior: smooth;
 }
 
 header {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.72),rgba(0, 0, 0, 0.72)),url(backgroundimg/header.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.72),rgba(0, 0, 0, 0.72)),url(backgroundimg/stars.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -108,6 +109,8 @@ h3 {
     margin-top: 40px;
     float: right;
 }
+
+
 
 .nav-bar li {
     margin-right: 40px;
