@@ -121,6 +121,7 @@ h3 {
 
 
 .nav-bar {
+    z-index : 2;
     position: fixed;
     background-color: #111;
     padding: 20px 40px;
