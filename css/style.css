@@ -177,25 +177,13 @@ h3 {
 .icon {
     height: 35px;
     width: auto;
+    filter: none;
+    transition: filter 0.2s;
 }
 
 .icon:hover {
     filter: invert(40%) sepia(85%) saturate(337%) hue-rotate(93deg) brightness(93%) contrast(104%);
 }
-
-/*
-icon{
-    display: block;
-    height: 45px;
-    width: 45px;
-    background-size: cover;
-}
-
-i-github {
-    background-image: url(../icon/logo-github.svg);
-}
-*/
-
 
 .main-text h2 {
     font-size: 85%;
