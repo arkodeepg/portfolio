@@ -20,7 +20,7 @@ html {
 }
 
 header {
-    background-image:linear-gradient(rgba(0, 0, 0, 0.72),rgba(0, 0, 0, 0.72)),url(backgroundimg/stars.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(backgroundimg/stars.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -91,7 +91,7 @@ h3 {
     margin: 1% 0 1% 1.6%;
 }
 
-.underline{
+.underline {
     text-decoration: underline;
     text-decoration-color: #2ECC71;
 }
@@ -121,12 +121,12 @@ h3 {
 
 
 .nav-bar {
-    z-index : 2;
+    z-index: 2;
     position: fixed;
     background-color: #111;
     padding: 20px 40px;
     width: 100%;
-    
+
 }
 
 .nav-bar li {
@@ -140,7 +140,7 @@ h3 {
     margin-left: 50px;
 }
 
-.nav-bar ul{
+.nav-bar ul {
     float: right;
 }
 
@@ -213,7 +213,7 @@ h3 {
 
 .sub-head {
     margin-top: 2%;
-/*    margin-bottom: 1%;*/
+    /*    margin-bottom: 1%;*/
     text-transform: capitalize
 }
 
@@ -236,21 +236,20 @@ h3 {
 
 .c {
     background-color: #2ECC71;
-    width: 60%;    
+    width: 60%;
 }
 
-.btn{
+.btn {
     text-align: center;
 }
 
-.btn-full{
+.btn-full {
     display: inline-block;
     border: 2px solid #2ECC71;
 }
 
 .btn-full:link,
-.btn-full:visited
-{
+.btn-full:visited {
     background-color: #2ECC71;
     padding: 7px;
     font-size: 130%;
@@ -271,7 +270,7 @@ h3 {
 
 
 .contact {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.80)),url(backgroundimg/webb-dark.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.80)), url(backgroundimg/webb-dark.png);
     background-position: center;
     background-size: auto;
     padding-bottom: 20px;
@@ -300,4 +299,76 @@ h3 {
     font-size: 80%;
     opacity: 90%;
     text-align: center;
+}
+
+
+/*media queries*/
+
+@media only screen and (max-width: 1170px) {
+
+    .row {
+    display: block;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    }
+  h1 {
+    line-height: 90%;
+    font-size: 3rem;
+    font-weight: 200;
+}
+.main-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: max-content;
+}
+
+.main-text h2 {
+    font-size: 0.7em;
+}
+
+header ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+html {
+    color: #fff;
+    font-weight: 270;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 17px;
+    text-rendering: optimizeLegibility;
+    line-height: 125%;
+}
+
+.span-1-of-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    min-height: 75vh;
+}
+
+.info {
+
+    bottom: 0;
+    position: fixed;
+
+}
+.footer-info {
+
+    font-size: 80%;
+    opacity: 100%;
+    text-align: center;
+    background-color: #262626;
+    font-color: #000;
+
+    width: 100%;
+    margin-bottom: -50px;
+
+}
 }
