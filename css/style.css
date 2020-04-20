@@ -332,8 +332,9 @@ html {
     font-weight: 400;
 }
 
-    h3{
+h3{
         font-weight: 300;
+        font-size: 130%;
     }
 
 .main-text {
@@ -359,7 +360,7 @@ html {
 }
 
     header{
-        height: 75vh;
+        height: 100vh;
     }
 
     section{
@@ -373,7 +374,7 @@ header ul {
 
 .span-1-of-2 {
     width: 100%;
-    display: flex;
+    display: block;
     flex-direction: column;
 }
 .contact{
@@ -394,6 +395,8 @@ header ul {
 
     width: 100%;
     margin-bottom: -50px;
-
 }
-}
+    
+    .text{
+        color: #ede8e8;
+    }
