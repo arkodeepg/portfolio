@@ -318,6 +318,7 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility;
     line-height: 125%;
+    
 }
 
     .row {
@@ -358,14 +359,13 @@ h3{
     text-align: left;
 /*    font-size: 0.7em;*/
 }
-
+    .about{
+        padding: 0 30px;
+    }
     header{
         height: 100vh;
     }
 
-    section{
-        position: relative;
-    }
 header ul {
     width: 100%;
     display: flex;
@@ -378,8 +378,9 @@ header ul {
     flex-direction: column;
 }
 .contact{
-    min-height: 75vh;
-}
+    min-height: 40vh;
+    bottom: 0;
+    }
 
 .info {
     display: inline;
@@ -392,10 +393,13 @@ header ul {
     text-align: center;
     background-color: #262626;
     color: #000;
-
     width: 100%;
     margin-bottom: -50px;
 }
+    .sub-head{
+        font-size: 20px;
+        color: #fcfbfb;
+    }
     
     .text{
         color: #ede8e8;
