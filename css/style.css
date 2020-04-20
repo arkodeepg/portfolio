@@ -20,6 +20,7 @@ html {
 }
 
 header {
+    position: relative;
     background-image: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)), url(backgroundimg/stars.jpg);
     background-size: cover;
     background-position: center;
@@ -68,6 +69,7 @@ h2 {
 }
 
 h3 {
+    font-weight: 10%;
     line-height: 130%;
     margin-top: 5%;
     margin-bottom: 2%;
@@ -176,6 +178,7 @@ h3 {
 }
 
 .icon {
+    display: inline;
     height: 35px;
     width: auto;
     filter: none;
@@ -184,10 +187,13 @@ h3 {
 
 .icon:hover {
     filter: invert(40%) sepia(85%) saturate(337%) hue-rotate(93deg) brightness(93%) contrast(104%);
+
 }
 
 .main-text h2 {
-    font-size: 85%;
+    margin-top: 30px;
+    font-size: 100%;
+    opacity: 60%;
 }
 
 .main-text h2 span {
@@ -305,6 +311,14 @@ h3 {
 /*media queries*/
 
 @media only screen and (max-width: 1170px) {
+html {
+    color: #fff;
+    font-weight: 270;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    line-height: 125%;
+}
 
     .row {
     display: block;
@@ -314,9 +328,14 @@ h3 {
     }
   h1 {
     line-height: 90%;
-    font-size: 3rem;
-    font-weight: 200;
+    font-size: 500%;
+    font-weight: 400;
 }
+
+    h3{
+        font-weight: 300;
+    }
+
 .main-text {
     position: absolute;
     left: 50%;
@@ -325,23 +344,31 @@ h3 {
     width: max-content;
 }
 
+.main-text h2 span{
+        display: block;
+        color: transparent;
+        height: 20px;
+    }
+    
 .main-text h2 {
-    font-size: 0.7em;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 160%;
+    text-align: left;
+/*    font-size: 0.7em;*/
 }
 
+    header{
+        height: 75vh;
+    }
+
+    section{
+        position: relative;
+    }
 header ul {
     width: 100%;
     display: flex;
     flex-direction: row;
-}
-
-html {
-    color: #fff;
-    font-weight: 270;
-    font-family: 'Lato', 'Arial', sans-serif;
-    font-size: 17px;
-    text-rendering: optimizeLegibility;
-    line-height: 125%;
 }
 
 .span-1-of-2 {
@@ -354,10 +381,8 @@ html {
 }
 
 .info {
-
+    display: inline;
     bottom: 0;
-    position: fixed;
-
 }
 .footer-info {
 
@@ -365,7 +390,7 @@ html {
     opacity: 100%;
     text-align: center;
     background-color: #262626;
-    font-color: #000;
+    color: #000;
 
     width: 100%;
     margin-bottom: -50px;
