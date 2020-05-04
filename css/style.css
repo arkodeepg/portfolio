@@ -147,12 +147,12 @@ h3 {
         padding: 0;
         margin: 0;
         word-spacing: -20%;
-        transition: color 3s;
-        color: #ffffff;
+        transition: color 1s;
+        color: #229552;
     }
 .high-text:hover{
     transition: color 0s;
-    color: #229552;
+    color: #d5d5d5;
 }
 
 .row {

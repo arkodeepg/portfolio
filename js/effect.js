@@ -1,4 +1,4 @@
-let words = ['fornt end developer', 'ui/ux developer', 'python developer'];
+let words = ['front end developer', 'ui/ux developer', 'python developer'];
 
 let count = 0;
 let index = 0;
